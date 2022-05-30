@@ -77,10 +77,11 @@
 }
 
 #form{
-  background-color:#343a40;
+  background-color:black;
   position: relative;
   top: 50px;
   height: 500px;
+
 }
 
 #p0{
@@ -114,17 +115,67 @@
   
   width: 100%;
   height: 500px;
-}
-#hov:hover{
-  width: 100%;
-  height: 550px;
-  transition: .2s
- 
+ background-color: black;
+  
 }
 
+.img4{
+  width: 80%;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: -250px;
+  background-image: url(img/one.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.img4:hover{
+  background-size: 120% 120%;
+  transition: .3s;
+}
+
+#cd{
+  background-image: url("img/eleven.jpg");
+   background-repeat: no-repeat;
+  background-position: top;
+  background-size: 50% 50%;
+
+}
+
+#cd2{
+  background-image: url("img/two.jpg");
+   background-repeat: no-repeat;
+  background-position: top;
+  background-size: 50% 50%;
+}
+
+#cd3{
+  background-image: url(img/twelve.jpg);
+   background-repeat: no-repeat;
+  background-position: top;
+  background-size: 50% 50%;
+
+}
 
 
+#cd:hover{
+  background-size: 65% 65%;
+  transition: .4s 
+}
 
+#cd2:hover{
+  background-size: 65% 65%;
+  transition: .4s 
+}
+
+#cd3:hover{
+  background-size: 65% 65%;
+  transition: .4s 
+}
+
+#bggg{
+	background-color: black;
+}
 
 </style>
 
@@ -359,15 +410,13 @@
   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" >
         <div class="col">
           <div class="card shadow-sm" id="hov">
-            <img src="img/eleven.jpg" style="height: 350px;">
-           
-
-            <div class="card-body">
-              <p class="card-text">Don't forget about them, You might think your monthly streams is the most important data but don't neglect your followers. </p>
+            
+        <div class="card-body" id="cd"><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+              <p class="card-text text-warning">Don't forget about them, You might think your monthly streams is the most important data but don't neglect your followers. </p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-md btn-outline-warning">View</button>
-                  <button type="button" class="btn btn-md btn-outline-warning">Edit</button>
+                <div>
+                  <button type="button" class="btn btn-md btn-outline-warning">Tap to read more</button>
+                  
                 </div>
                
               </div>
@@ -376,14 +425,12 @@
         </div>
         <div class="col">
           <div class="card shadow-sm" id="hov">
-           <img src="img/two.jpg" style="height: 350px;">
-
-            <div class="card-body">
-              <p class="card-text">We offer these services; Content Distribution(Top & Promotion site), Digital Stores Distribution, Radio / Tv Promotion, Twitter Trend.</p>
+            <div class="card-body" id="cd2"><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+              <p class="card-text text-warning">We offer these services; Content Distribution(Top & Promotion site), Digital Stores Distribution, Radio / Tv Promotion, Twitter Trend.</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-warning">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-warning">Edit</button>
+                <div>
+                  <button type="button" class="btn btn-md btn-outline-warning">Tap to read more</button>
+                 
                 </div>
                
               </div>
@@ -392,14 +439,12 @@
         </div>
         <div class="col">
           <div class="card shadow-sm" id="hov">
-           <img src="img/twelve.jpg" style="height: 350px;">
-
-            <div class="card-body">
-              <p class="card-text">These are playlist created by Spotify listeners. These are playlist created by Spotify listeners.These are playlist created by Spotify listeners.</p>
+            <div class="card-body" id="cd3"><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+              <p class="card-text text-warning">These are playlist created by Spotify listeners. These are playlist created by Spotify listeners.These are playlist created by Spotify listeners.</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-warning">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-warning">Edit</button>
+                <div>
+                  <button type="button" class="btn btn-md btn-outline-warning">Tap to read more</button>
+                  
                 </div>
                 
               </div>
@@ -416,57 +461,6 @@
 
 
 
-  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <h1>Example headline.</h1>
-            <p>Some representative placeholder content for the first slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption text-end">
-            <h1>One more for good measure.</h1>
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-
-
 
 
 
@@ -478,6 +472,77 @@
 
 
 
+
+ <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" id="bg">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner" id="bggg">
+      <div class="carousel-item active">
+      
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1 class="text-warning display-6">DIGITAL PROMOTIONS</h1>
+            <p class="text-warning">We offer these services; Content Distribution(Top & Promotion site), Digital Stores Distribution, Radio / Tv Promotion, Twitter Trend, Graphic Design, Instagram & Fcaebook Spomsored Ads, Audiomack, Apple Music, Spotify, Deezer streams Playlisting, Triller uoload, / Challenge Set up, A & R services</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="text-warning display-6">EDITORIAL</h1>
+            <p class="text-warning">These are famous spotify curated playlist! These playlists are accessible only by submitting your songs through spotify for Artist or directly sportify employee</p>
+           
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="text-warning display-6">Our Vision</h1>
+            <p class="text-warning">To promote and showcase African artistes and their music to the largely population in Africa and to a global audience. We are all about getting your content material heard or watched however most significantly sold so that you can get paid;</p>
+           
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="text-warning display-6">Our Mission</h1>
+            <p class="text-warning">O D is an entertainment & tech startup company that renders music service artiste, record label and entertainment brands. We also provide talent management, distribution and publishing of music with expertise in brand consultancy.</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+       
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1 class="display-6 text-warning">EDITORIAL</h1>
+            <p class="text-warning">These are famous spotify curated playlist! These playlists are accessible only by submitting your songs through spotify for Artist or directly sportify employee</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
 
 
@@ -514,7 +579,8 @@
   <div class="container col-xl-10 col-xxl-8 px-4 py-5" id="form" >
     <div class="row align-items-center g-lg-5 py-5">
       <div class="col-lg-7 text-center text-lg-start">
-       
+        <div class="img4"> </div>
+       <h4 class="display-5 text-center text-warning">BECOME A TOP MEMEBER OF OJOROPANET</h4>
       </div>
       <div class="col-md-10 mx-auto col-lg-5" id="sign">
         <form class="p-4 p-md-5 border rounded-3 bg-light">
